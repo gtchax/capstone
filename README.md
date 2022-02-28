@@ -25,4 +25,4 @@ Download all the files and open index.html in your preferred browser
 
 Add products to cart, pick a delivery option, add a coupon code then checkout
 
-![ScreenShot](screenshot.png)
+![ScreenShot](Screenshot.png)
