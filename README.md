@@ -2,7 +2,9 @@
 
 ## Overview
 
-Online store project to mark the completion of HyperionDev Fullstack Bootcamp Level 1. Frontend functionality only.
+Online store project to mark the completion of HyperionDev Fullstack Bootcamp Level 1.
+Frontend functionality only.
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -14,3 +16,13 @@ Online store project to mark the completion of HyperionDev Fullstack Bootcamp Le
     3. Cart page
     4. Contact page
     5. Login page
+
+### Installation
+
+Download all the files and open index.html in your preferred browser
+
+### Usage
+
+Add products to cart, pick a delivery option, add a coupon code then checkout
+
+![ScreenShot](screenshot.png)
