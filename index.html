@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Custom Styles CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Capstone Store | Home</title>
+  </head>
+  <body>
+    <header class="pt-4 home-bg h-full" id="top">
+      <!-- Main navigation -->
+      <nav
+        class="container d-flex align-contents-center justify-content-around"
+      >
+        <a
+          href="index.html"
+          class="text-white mr-auto d-flex align-content-end justify-content-end"
+        >
+          <img
+            src="assets/images/logo1.png"
+            alt="cupcakes"
+            width="50px"
+            class="p-1"
+          />
+        </a>
+        <div id="lang"></div>
+        <ul class="text-white text-sm d-none d-md-block">
+          <a
+            href="pages/catalogue.html"
+            class="navbar-brand text-white text-md text-sm"
+            >Catalogue</a
+          >
+          <a href="pages/team.html" class="navbar-brand text-white text-sm"
+            >Team</a
+          >
+          <a href="pages/contact.html" class="navbar-brand text-white text-sm"
+            >Contact Us</a
+          >
+          <a
+            href="pages/login.html"
+            class="navbar-brand px-3 py-2 rounded-pill bg-white text-dark text-sm"
+            >Login</a
+          >
+        </ul>
+        <!-- Cart icon shown only count of items in cart -->
+        <a href="pages/cart.html">
+          <div class="position-relative">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="#fff"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              ></path>
+            </svg>
+            <div class="position-absolute" style="top: -14px; right: -10px">
+              <div
+                class="center bg-pink"
+                style="height: 1.5em; width: 1.5em; border-radius: 100%"
+              >
+                <span id="cartCount" class="text-white">4</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Hamburger menu icon shown only visible on  small screens -->
+        <div>
+          <svg
+            class="d-md-none"
+            height="22"
+            width="22"
+            fill="none"
+            stroke="#fff"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h7"
+            ></path>
+          </svg>
+        </div>
+      </nav>
+      <section class="h-100 mx-auto pt-5">
+        <h1 class="text-big text-center text-white">
+          <span class="text-pink">Amazing</span> Cupcakes
+        </h1>
+        <p class="text-white text-center gill">Capstone Project 2022</p>
+        <img src="assets/images/cupcake.png" alt="cupcakes" class="p-2" />
+      </section>
+    </header>
+    <main>
+      <!-- Ingredients section -->
+      <section
+        class="h-full bg-gray pb-5 d-flex align-items-center justify-content-center"
+      >
+        <div class="container">
+          <article class="row">
+            <div class="col-md-6 text-center pb-5">
+              <img
+                src="assets/images/rolling-pin.png"
+                alt="rolling pin"
+                width="400px"
+                class="p-2"
+              />
+            </div>
+            <div
+              class="col-md-6 d-flex align-items-center justify-content-center"
+            >
+              <div>
+                <h2>Organic Ingredients</h2>
+                <ul class="p-0 organic">
+                  <li>
+                    <svg
+                      class="w-6 h-6"
+                      fill="none"
+                      stroke="#404eed"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg>
+                    Organic flour
+                  </li>
+                  <li>
+                    <svg
+                      class="w-6 h-6"
+                      fill="none"
+                      stroke="#404eed"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg>
+                    Home made
+                  </li>
+                  <li>
+                    <svg
+                      class="w-6 h-6"
+                      fill="none"
+                      stroke="#404eed"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg>
+                    No milk
+                  </li>
+                  <li>
+                    <svg
+                      class="w-6 h-6"
+                      fill="none"
+                      stroke="#404eed"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      ></path>
+                    </svg>
+                    No preservatives
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Delivery packages section -->
+      <section
+        class="h-full bg-white pb-5 d-flex align-items-center justify-content-center"
+      >
+        <div class="container">
+          <article class="row flex-row-reverse">
+            <div class="col-md-6 text-center pb-5">
+              <img
+                id="van"
+                src="assets/images/delivery.png"
+                alt="delivery"
+                width="500px"
+                class="p-2"
+              />
+              <div>
+                <button id="drive" class="btn btn-dark">Drive away</button>
+              </div>
+            </div>
+            <div
+              class="col-md-6 d-flex align-items-center justify-content-center text-center"
+            >
+              <div>
+                <h2>Office Delivery</h2>
+                <table class="table table-hover table-bordered">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Package</th>
+                      <th scope="col">Validity</th>
+                      <th scope="col">Cost</th>
+                      <th class="dollars" scope="col">$US</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Express way</td>
+                      <td>1 Day</td>
+                      <td>R72.00</td>
+                      <td class="dollars">$5.00</td>
+                    </tr>
+                    <tr>
+                      <td>Weekly breeze</td>
+                      <td>1 Week</td>
+                      <td>R256.00</td>
+                      <td class="dollars">$16.00</td>
+                    </tr>
+                    <tr>
+                      <td>Monthly bliss</td>
+                      <td>1 Month</td>
+                      <td>R579.00</td>
+                      <td class="dollars">$35.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div>
+                  <button id="toggle" class="btn btn-dark">
+                    Toggle dollars
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="h-full">
+        <div class="row">
+          <div
+            id="cupcake"
+            class="col-md-6 bg-blue h-full position-relative overflow-hidden"
+          >
+            <h5 id="price" class="bg-dark text-white px-3 py-2">R72.00</h5>
+          </div>
+          <div
+            class="col-md-6 bg-white d-flex align-items-center justify-content-center"
+          >
+            <div class="text-center">
+              <h3 class="pt-5 text-center fantasy">Cherry Rippley</h3>
+              <p class="text-center py-2">
+                The all new, mouth watering cherry ripple for all seasons
+              </p>
+              <button
+                data-id="0"
+                id="ripple"
+                class="btn text-center navbar-brand rounded-pill py-2 px-4 text-white bg-pink mx-auto text-uppercase my-5"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial section -->
+      <section
+        class="container h-half bg-gray pb-5 d-flex align-items-center justify-content-center"
+      >
+        <div class="row">
+          <div class="col-md-4">
+            <article class="m-0 p-0">
+              <div class="d-flex">
+                <img
+                  src="assets/images/profile2.jpg"
+                  alt="profile picture"
+                  class="image-box-sm"
+                />
+                <div>
+                  <blockquote cite="/index.html" class="pt-4 px-2">
+                    "I love the it"
+                  </blockquote>
+                  <div class="d-flex justify-content-center">
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="m-0 p-0">
+              <div class="d-flex">
+                <img
+                  src="assets/images/profile.jpg"
+                  alt="profile picture"
+                  class="image-box-sm"
+                />
+                <div>
+                  <blockquote cite="/index.html" class="pt-4 px-2">
+                    "Tasty"
+                  </blockquote>
+                  <div class="d-flex justify-content-center">
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="m-0 p-0">
+              <div class="d-flex">
+                <img
+                  src="assets/images/profile3.jpg"
+                  alt="profile picture"
+                  class="image-box-sm"
+                />
+                <div>
+                  <blockquote cite="/index.html" class="pt-4 px-2">
+                    "Delicious."
+                  </blockquote>
+                  <div class="d-flex justify-content-center">
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="w-6 h-6"
+                      fill="#e2b800"
+                      stroke="#e2b800"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="h-min-60 position-relative">
+      <div class="container pb-4">
+        <p class="text-sm float-right py-2 my-2">
+          <a href="#top" class="p-3 btn btn-outline-light">Back to top</a>
+        </p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <h3 class="text-white">Amazing Cupcakes</h3>
+            <img
+              src="assets/images/logo1.png"
+              alt="cupcakes"
+              width="200px"
+              class="p-1"
+            />
+          </div>
+          <div class="col-md-8">
+            <h5 class="text-white">Stay in touch</h5>
+            <ul>
+              <li class="py-2">
+                <img
+                  src="assets/images/fb.png"
+                  alt="facebook"
+                  width="30px"
+                  class="p-1"
+                />
+                <a
+                  class="px-2 text-white navbar-brand"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li class="py-2">
+                <img
+                  src="assets/images/instagram.png"
+                  alt="instagram"
+                  width="30px"
+                  class="p-1"
+                />
+                <a
+                  class="px-2 text-white navbar-brand"
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li class="py-2">
+                <img
+                  src="assets/images/whatsapp.png"
+                  alt="whatsapp"
+                  width="30px"
+                  class="p-1"
+                />
+                <a
+                  class="px-2 text-white navbar-brand"
+                  href="https://www.whatsapp.com"
+                  target="_blank"
+                  >Whatsapp</a
+                >
+              </li>
+            </ul>
+            <p class="text-white">News letter</p>
+            <form class="form d-flex w-20">
+              <input
+                class="form-control radius-r-none shadow w-80"
+                type="email"
+                placeholder="Email"
+                aria-label="Email"
+              />
+              <button
+                class="btn btn-success my-2 my-sm-0 radius-l-none py-2 shadow-lg"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <section class="container mt-5">
+        <div class="row text-white">
+          <div class="col-md-4">
+            <h5>Acknowledgements</h5>
+            <p>
+              Cupcake photos by
+              <a
+                target="_blank"
+                href="https://unsplash.com/@wenography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Owen Bruce</a
+              >
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p class="mt-7">
+              Chef photos by
+              <a
+                target="_blank"
+                href="https://unsplash.com/s/photos/pastry-chef?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Unsplash</a
+              >
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p class="mt-7">
+              Testimonial photos by
+              <a
+                target="_blank"
+                href="https://unsplash.com/@redcharlie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >redcharlie</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <p class="colophon text-center m-0 text-white py-2">
+        &copy; Capstone Project 2022
+      </p>
+    </footer>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js" type="text/javascript"></script>
+  </body>
+</html>
